@@ -1,5 +1,26 @@
 {
   "dependencies": {
-    "express": "^4.21.0"
-  }
+    "express": "^4.21.0",
+    "express-handlebars": "^8.0.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.11.0",
+    "eslint": "^9.11.0",
+    "globals": "^15.9.0"
+  },
+  "name": "node",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "lint": "eslint meadowlark.js lib",
+    "run": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/Kurivyan/Node"
+  },
+  "author": "Kurivyan & qwerax",
+  "license": "ISC",
+  "description": ""
 }
